@@ -67,29 +67,28 @@
     },
     {
         "caption": "OverrideAudit: Diff Single Override",
-        "command": "override_audit_diff_override"
+        "command": "override_audit_diff_single"
     },
     {
         "caption": "OverrideAudit: Bulk Diff Single Package",
-        "command": "override_audit_diff_override",
+        "command": "override_audit_diff_single",
         "args": { "bulk": true }
     },
     {
         "caption": "OverrideAudit: Bulk Diff All Packages",
-        "command": "override_audit_diff_package"
+        "command": "override_audit_diff_report"
     },
     {
         "caption": "OverrideAudit: Refresh Report",
-        "command": "override_audit_context_report"
+        "command": "override_audit_refresh_report"
     },
     {
         "caption": "OverrideAudit: Swap Diff/Edit View",
-        "command": "override_audit_context_override",
-        "args": { "action": "toggle" }
+        "command": "override_audit_toggle_override",
     },
     {
-        "caption": "OverrideAudit: Delete Override",
-        "command": "override_audit_context_override",
+        "caption": "OverrideAudit: Delete Current Override",
+        "command": "override_audit_delete_override",
         "args": { "action": "delete" }
     }
 ]

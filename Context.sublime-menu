@@ -1,25 +1,22 @@
 [
     { "caption": "-" },
 
-    // Toggle between an open override and a diff of it
-    { "command": "override_audit_context_override", "args": { "action": "toggle" } },
-
-    // Core operations for an override being referenced by name in a report.
-    { "command": "override_audit_context_override", "args": { "action": "edit" } },
-    { "command": "override_audit_context_override", "args": { "action": "diff" } },
-    { "command": "override_audit_context_override", "args": { "action": "delete" } },
+    // Core override operations
+    { "command": "override_audit_edit_override" , "args": { "always_visible": false }},
+    { "command": "override_audit_diff_override" , "args": { "always_visible": false }},
+    { "command": "override_audit_delete_override" , "args": { "always_visible": false }},
 
     // Bulk diffing of a single package in a report
-    { "command": "override_audit_context_package", "args": { "action": "diff" } },
+    { "command": "override_audit_diff_package" , "args": { "always_visible": false }},
 
     // Refresh an existing report window
-    { "command": "override_audit_context_report" },
+    { "command": "override_audit_refresh_report" , "args": { "always_visible": false } },
 
     { "caption": "-" },
 
-    // Freshen actions for a single override or for a package with overrides
-    { "command": "override_audit_context_override", "args": { "action": "freshen" } },
-    { "command": "override_audit_context_package", "args": { "action": "freshen" } },
+    // Freshen actions for expired items
+    { "command": "override_audit_freshen_override" , "args": { "always_visible": false }},
+    { "command": "override_audit_freshen_package" , "args": { "always_visible": false }},
 
     { "caption": "-" },
 ]

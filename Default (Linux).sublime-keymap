@@ -2,8 +2,7 @@
     // Toggle between an override and its diff.
     {
         "keys": ["alt+o"],
-        "command": "override_audit_context_override",
-        "args": {"action": "toggle"},
+        "command": "override_audit_toggle_override",
         "context": [
             { "key": "override_audit_override_view" }
         ]
@@ -12,7 +11,7 @@
     // Refresh the current OverrideAudit report
     {
         "keys": ["f5"],
-        "command": "override_audit_context_report",
+        "command": "override_audit_refresh_report",
         "context": [
             { "key": "override_audit_report_view" }
         ]
