@@ -36,7 +36,7 @@ def loaded():
     """
     Initialize plugin state.
     """
-    log("Initializing")
+    # log("Initializing")
     oa_setting.obj = sublime.load_settings("OverrideAudit.sublime-settings")
     oa_setting.default = {
         "reuse_views": True,
