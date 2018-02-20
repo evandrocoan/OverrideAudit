@@ -323,7 +323,7 @@ class AutoReportTrigger():
                     pass
 
         if self.last_build == sublime.version() and self.force_report == False:
-            log("Sublime version is unchanged; skipping automatic report")
+            # log("Sublime version is unchanged; skipping automatic report")
             return
 
         if self.last_build != sublime.version():
