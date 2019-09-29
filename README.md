@@ -13,28 +13,26 @@ available which shows some of the key features.
 -------------------------------------------------------------------------------
 
 
-## Installation ##
+## Installation
 
-### Package Control ###
+### By Package Control
 
-The best way to install the package is via PackageControl, as this will take
-care of ensuring that the package is kept up to date without your having to do
-anything at all.
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `OverrideAudit` and press <kbd>Enter</kbd>
 
-To install via Package Control, open the Command Palette and select the command
-`Package Control: Install Package` and search for `OverrideAudit`.
-
-
-### Manual Installation ###
-
-In order to manually install the package, clone the repository into your
-Sublime Text `Packages` directory. You can locate this directory by choosing
-`Preferences > Browse Packages...` from the menu.
-
-Manual installation is not recommended for most users, as in this case you are
-responsible for manually keeping everything up to date. You should only use
-manual installation if you have a very compelling reason to do so and are
-familiar enough with the process to know how to do it properly.
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 -------------------------------------------------------------------------------
